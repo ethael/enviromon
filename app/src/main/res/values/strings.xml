@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Enviromon</string>
+    <string name="cd"> </string>
+    <string name="light">LGT:</string>
+    <string name="sound">SND:</string>
+    <string name="debug">DBG:</string>
+    <string name="silent">SIL:</string>
+    <string name="lazy">LZY:</string>
+    <string name="correction">COR:</string>
+    <string name="snt">SNT:</string>
+    <string name="slt">SLT:</string>
+    <string name="ver">VER:</string>
+    <string name="con">CON:</string>
+    <string name="device_id">ID:</string>
+    <string name="id_dialog_title">SET ID</string>
+</resources>
