@@ -9,12 +9,24 @@ Samsung Galaxy S4 (Note 3) Temperature, Humidity, Atmospheric pressure, Light an
 - gather long term atmospheric/weather data
 - setup a "device per room" model for full potential
 
+# Features
+- gather temperature, humidity, atmospheric pressure, light & noise intensity, charging status and battery level from the device sensors
+- show temperature and humidity on the display
+- if there is a `OUTDOOR` device available, show also outdoor temperature and humidity on every other device
+- upload gathered sensor data to server every minute (and obtain/update outdoor data if available)
+- turn the display automatically on and off based on surrounding noise levels (threshold configurable in the `config.properties` file)
+- change the display brightness based on surrounding light conditions (threshold configurable in the `config.properties` file)
+- show the debug metadata in the bottom of the display if the debug mode is on (configurable in the `config.properties` file)
+- automatic (per device) temperature correction ratio, if your device's sensors have some kind of constant shift (configurable in the `config.properties` file)
+
 # Possible extension ideas (not implemented)
 - code a weather forecast algorithm (detect sudden drops in atmospheric pressure)
 - show more data on the display (todays calendar, weather forecast...)
 - use it to directly control non smart devices (because the device has both bluetooth and even IRDA capabilities!)
 - add a button (or reimplement the app's noise detector for endless prompt listening) and use it as your voice command input and voice response output
 - utilize the phone camera as a simple security cam triggered by motion, sudden light drop or noise level change
+- use it as a night light triggered by noise
+- notify about power outtages, humidity spikes (has someone forgot to open the window after shower?), temperature drops (has someone forgot to close windows/door in the winter?)
 
 # Project structure
 - android app
@@ -52,7 +64,20 @@ Samsung Galaxy S4 (Note 3) Temperature, Humidity, Atmospheric pressure, Light an
   - solder it to the position, or make a copper lump and fix it in the position with a heat gun
   - **CAUTION!** red wire is in the first position (on the edge), if you mix it, you may destroy the device
   - **CAUTION!** this will bypass battery. charger will provide its 5V directly to the device. original battery provides only 3.8V. this means that you should step down the voltage using diodes or other electrical components. I don't care and run it on 5V, because I am lazy and I trust the Koreans, that their components can handle a bit more stress.
-  - **CAUTION!** the 3D design for Galaxy Note 3 is sufficiently accurate in the area of electrical pins. Galaxy S4 is a bit more faded ;) I couldn't be bothered. But still working though. If you care, you can practice your tinkercad skills a bit.
+  - **CAUTION!** the 3D design for Galaxy Note 3 is sufficiently accurate in the area of electrical pins. Galaxy S4 is a bit more faded ;) I couldn't be bothered. But still working though. If you care, you can practice your tinkercad skills a bit and fix it.
+
+# Device configuration for best results
+- dark amoled mode: on
+- wake on plug: off
+- tap to sleep: off
+- screen saver: off
+- vibrations: off
+- display always on: on
+- diode off
+- disable battery optimisation
+- allow app permissions manually
+- allow unlimited data usage
+- enable app pinning and pin the enviromon app
 
 # Gallery
 
