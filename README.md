@@ -28,7 +28,16 @@ Samsung Galaxy S4 (Note 3) Temperature, Humidity, Atmospheric pressure, Light an
 
 # Addons
 - print the table stand and/or wall mount version or use the measures from stl file and design your own
-- batt
+- if you are a bit paranoid (like me) and you don't want to keep the device with battery always on AC, and you don't mind loosing your "free UPS", then use my 3D design for battery bypass.
+  - manual
+    - cut the micro usb end from the cable
+    - remove about 10cm of spaghetti tubing and alu foil
+    - keep only red (+) and black (-) wires. the other two are data cables, you don't need them 
+    - print the 3D model
+    - run the wires through the holes in the model
+    - solder it to the position, or make a copper lump and fix it in the position with heat gun
+    - CAUTION! red wire is in the first position (the edge position), if you mix it, you may destroy the device
+    - CAUTION! this will bypass battery. charger will provide its 5V directly to the device. original battery provides only 3.8V. this means that you should step down the voltage using diodes or other electrical components. I didn't care and run it on 5V, because I am lazy and I trust the Koreans, that their components can handle a bit more stress.
 
 
 # Gallery
