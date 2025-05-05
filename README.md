@@ -18,6 +18,7 @@ Samsung Galaxy S4 (Note 3) Temperature, Humidity, Atmospheric pressure, Light an
 - change the display brightness based on surrounding light conditions (threshold configurable in the `config.properties` file)
 - show the debug metadata in the bottom of the display if the debug mode is on (configurable in the `config.properties` file)
 - automatic (per device) temperature correction ratio, if your device's sensors have some kind of constant shift (configurable in the `config.properties` file)
+- automatic OTA updates. just put the apk file into an `apk` folder (will be created by `install.sh`) and update `.version` in the `apk` folder
 
 # Possible extension ideas (not implemented)
 - code a weather forecast algorithm (detect sudden drops in atmospheric pressure)
