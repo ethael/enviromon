@@ -34,7 +34,7 @@ Samsung Galaxy S4 (Note 3) Temperature, Humidity, Atmospheric pressure, Light an
 - stl file for 3D printing the frame (standalone or wall mount) and battery replacement kit (`print` directory)
 
 # Prerequisites
-- Samsung Galaxy S4 or Samsung Galaxy Note 3 device
+- Samsung Galaxy S4 (I9505) or Samsung Galaxy Note 3 (N9005) device
 - Flash the device with Lineage OS ROM. Version 18.1 (Android 11) works best for me
 
 # Installation
