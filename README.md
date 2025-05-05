@@ -1,6 +1,8 @@
 # enviromon
 Samsung Galaxy S4 (Note 3) Temperature, Humidity, Atmospheric pressure, Light and Noise intensity monitor project
 
+<img src="https://github.com/user-attachments/assets/4990cd7c-2e2f-4527-91b1-8ef01ea43054" alt="Enviromon" width="300">
+
 # Purpose
 - 24/7 monitoring of the surrounding environment
 - control other smart home devices like bulbs, fans, heating, aircondition based on gathered information
